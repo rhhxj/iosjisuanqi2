@@ -14,6 +14,7 @@
 		84DCE1A71D20B9C2007E86C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCE1A51D20B9C2007E86C4 /* LaunchScreen.storyboard */; };
 		84DCE1B21D20B9C2007E86C4 /* iosjisuanqiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1B11D20B9C2007E86C4 /* iosjisuanqiTests.swift */; };
 		84DCE1BD1D20B9C2007E86C4 /* iosjisuanqiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCE1BC1D20B9C2007E86C4 /* iosjisuanqiUITests.swift */; };
+		84DCE1CB1D20CE54007E86C4 /* 21201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84DCE1CA1D20CE54007E86C4 /* 21201.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84DCE1B81D20B9C2007E86C4 /* iosjisuanqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosjisuanqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DCE1BC1D20B9C2007E86C4 /* iosjisuanqiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosjisuanqiUITests.swift; sourceTree = "<group>"; };
 		84DCE1BE1D20B9C2007E86C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DCE1CA1D20CE54007E86C4 /* 21201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 21201.jpg; path = ../../21201.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		84DCE19B1D20B9C2007E86C4 /* iosjisuanqi */ = {
 			isa = PBXGroup;
 			children = (
+				84DCE1CA1D20CE54007E86C4 /* 21201.jpg */,
 				84DCE19C1D20B9C2007E86C4 /* AppDelegate.swift */,
 				84DCE19E1D20B9C2007E86C4 /* ViewController.swift */,
 				84DCE1A01D20B9C2007E86C4 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				84DCE1A71D20B9C2007E86C4 /* LaunchScreen.storyboard in Resources */,
 				84DCE1A41D20B9C2007E86C4 /* Assets.xcassets in Resources */,
+				84DCE1CB1D20CE54007E86C4 /* 21201.jpg in Resources */,
 				84DCE1A21D20B9C2007E86C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				84DCE1C31D20B9C2007E86C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DCE1C41D20B9C2007E86C4 /* Build configuration list for PBXNativeTarget "iosjisuanqiTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				84DCE1C61D20B9C2007E86C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DCE1C71D20B9C2007E86C4 /* Build configuration list for PBXNativeTarget "iosjisuanqiUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				84DCE1C91D20B9C2007E86C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

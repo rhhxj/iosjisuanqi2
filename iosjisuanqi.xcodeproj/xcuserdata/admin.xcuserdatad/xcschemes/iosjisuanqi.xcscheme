@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84DCE1981D20B9C2007E86C4"
+               BuildableName = "iosjisuanqi.app"
+               BlueprintName = "iosjisuanqi"
+               ReferencedContainer = "container:iosjisuanqi.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84DCE1AC1D20B9C2007E86C4"
+               BuildableName = "iosjisuanqiTests.xctest"
+               BlueprintName = "iosjisuanqiTests"
+               ReferencedContainer = "container:iosjisuanqi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84DCE1B71D20B9C2007E86C4"
+               BuildableName = "iosjisuanqiUITests.xctest"
+               BlueprintName = "iosjisuanqiUITests"
+               ReferencedContainer = "container:iosjisuanqi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84DCE1981D20B9C2007E86C4"
+            BuildableName = "iosjisuanqi.app"
+            BlueprintName = "iosjisuanqi"
+            ReferencedContainer = "container:iosjisuanqi.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84DCE1981D20B9C2007E86C4"
+            BuildableName = "iosjisuanqi.app"
+            BlueprintName = "iosjisuanqi"
+            ReferencedContainer = "container:iosjisuanqi.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84DCE1981D20B9C2007E86C4"
+            BuildableName = "iosjisuanqi.app"
+            BlueprintName = "iosjisuanqi"
+            ReferencedContainer = "container:iosjisuanqi.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
